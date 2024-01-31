@@ -6,7 +6,6 @@ public class Pokemon1 extends Pokemon{
 
     @Override
     public void applyData() {
-        System.out.println("Pokemon Applying data");
-        pkData.applyData();
+
     }
 }

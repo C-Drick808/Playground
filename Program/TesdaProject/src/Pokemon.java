@@ -1,4 +1,4 @@
-public abstract class Pokemon {
+public abstract class Pokemon{
 
     protected PokemonData pkData;
 
