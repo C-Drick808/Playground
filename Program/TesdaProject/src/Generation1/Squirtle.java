@@ -2,8 +2,7 @@ package Generation1;
 
 import AbstractFactory.Pokedex;
 
-public class Charmander extends Pokedex {
-
+public class Squirtle extends Pokedex {
     private final int id;
     private final String name;
     private final String type;
@@ -20,7 +19,7 @@ public class Charmander extends Pokedex {
     private final int speed;
     //private final int total;
 
-    public Charmander(int id, String name, String type, String species, float height, float weight,
+    public Squirtle(int id, String name, String type, String species, float height, float weight,
                       String abilities, int hp, int attack, int defense, int spAttack, int spDefense,
                       int speed) {
 
@@ -104,5 +103,4 @@ public class Charmander extends Pokedex {
     public int getSpeed() {
         return this.speed;
     }
-
 }

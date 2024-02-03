@@ -2,27 +2,27 @@ package Generation1;
 
 import AbstractFactory.Pokedex;
 
-public class Charmander extends Pokedex {
+public class Bulbasur extends Pokedex {
 
-    private final int id;
-    private final String name;
-    private final String type;
-    private final String species;
-    private final float height;
-    private final float weight;
-    private final String abilities;
+    private int id;
+    private String name;
+    private String type;
+    private String species;
+    private float height;
+    private float weight;
+    private String abilities;
 
-    private final int hp;
-    private final int attack;
-    private final int defense;
-    private final int spAttack;
-    private final int spDefense;
-    private final int speed;
-    //private final int total;
+    private int hp;
+    private int attack;
+    private int defense;
+    private int spAttack;
+    private int spDefense;
+    private int speed;
+    private int total;
 
-    public Charmander(int id, String name, String type, String species, float height, float weight,
-                      String abilities, int hp, int attack, int defense, int spAttack, int spDefense,
-                      int speed) {
+    public Bulbasur(int id, String name, String type, String species, float height, float weight,
+                    String abilities, int hp, int attack, int defense, int spAttack,
+                    int spDefense, int speed) {
 
         this.id = id;
         this.name = name;
@@ -37,7 +37,7 @@ public class Charmander extends Pokedex {
         this.spAttack = spAttack;
         this.spDefense = spDefense;
         this.speed = speed;
-        //this.total = total;
+        this.total = total;
     }
 
     @Override
@@ -82,7 +82,7 @@ public class Charmander extends Pokedex {
 
     @Override
     public int getAttack() {
-        return this.attack;
+        return  this.attack;
     }
 
     @Override
@@ -92,7 +92,7 @@ public class Charmander extends Pokedex {
 
     @Override
     public int getSpAttack() {
-        return this.spAttack;
+        return  this.spAttack;
     }
 
     @Override
@@ -104,5 +104,4 @@ public class Charmander extends Pokedex {
     public int getSpeed() {
         return this.speed;
     }
-
 }
