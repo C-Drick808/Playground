@@ -3,8 +3,8 @@
 public class Main {
     public static void main(String[] args) {
 
-        PokemonTemplate template = new Wild();
-        template.buildPokemon();
+        //PokemonTemplate template = new Wild();
+        //template.buildPokemon();
 
     }
 }
