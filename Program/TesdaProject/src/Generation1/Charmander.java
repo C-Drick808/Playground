@@ -1,9 +1,6 @@
 package Generation1;
 
-import AbstractFactory.Pokedex;
-
-public class Charmander extends Pokedex {
-
+public class Charmander{
     private final int id;
     private final String name;
     private final String type;
@@ -18,11 +15,11 @@ public class Charmander extends Pokedex {
     private final int spAttack;
     private final int spDefense;
     private final int speed;
-    //private final int total;
+    private final int total;
 
     public Charmander(int id, String name, String type, String species, float height, float weight,
                       String abilities, int hp, int attack, int defense, int spAttack, int spDefense,
-                      int speed) {
+                      int speed, int total) {
 
         this.id = id;
         this.name = name;
@@ -37,72 +34,63 @@ public class Charmander extends Pokedex {
         this.spAttack = spAttack;
         this.spDefense = spDefense;
         this.speed = speed;
-        //this.total = total;
+        this.total = total;
     }
 
-    @Override
+
     public int getId() {
-        return this.id;
+        return id;
     }
 
-    @Override
     public String getName() {
-        return this.name;
+        return name;
     }
 
-    @Override
     public String getType() {
-        return this.type;
+        return type;
     }
 
-    @Override
     public String getSpecies() {
-        return this.species;
+        return species;
     }
 
-    @Override
     public float getHeight() {
-        return this.height;
+        return height;
     }
 
-    @Override
     public float getWeight() {
-        return this.weight;
+        return weight;
     }
 
-    @Override
     public String getAbilities() {
-        return this.abilities;
+        return abilities;
     }
 
-    @Override
     public int getHp() {
-        return this.hp;
+        return hp;
     }
 
-    @Override
     public int getAttack() {
-        return this.attack;
+        return attack;
     }
 
-    @Override
     public int getDefense() {
-        return this.defense;
+        return defense;
     }
 
-    @Override
     public int getSpAttack() {
-        return this.spAttack;
+        return spAttack;
     }
 
-    @Override
     public int getSpDefense() {
-        return this.spDefense;
+        return spDefense;
     }
 
-    @Override
     public int getSpeed() {
-        return this.speed;
+        return speed;
     }
 
+    public int getTotal() {
+        return total;
+    }
 }
