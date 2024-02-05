@@ -1,11 +1,10 @@
 package com.cedrickcodes.crud.student;
 
-import java.time.LocalDate;
-import java.time.Month;
 import java.util.List;
+import java.util.Optional;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.GetMapping;
 
 /**
  * StudentService
@@ -13,17 +12,36 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Service
 public class StudentService {
 
-   
-   @GetMapping
+	private final StudentRepository studentRepository;
+	@Autowired
+	public StudentService(StudentRepository studentRepository){
+		this.studentRepository = studentRepository;
+	}
+
 	public List<Student> getStudents(){
-		return List.of(
-			new Student(
-				1L,
-				"Cedrick John Barrera",
-				"cedbarrera05@gmail.com",
-				LocalDate.of(2001, Month.JULY, 5),
-				22
-			)
-		);
+		return studentRepository.findAll();
+	}
+
+	public void addNewStudent(Student student){
+
+		Optional<Student> studentOptional = studentRepository.findStudentByEmail(student.getEmail());
+
+		if (studentOptional.isPresent()) {
+			throw new IllegalStateException("Email Taken");
+		}
+		studentRepository.save(student);
+	}
+
+
+	public void deleteStudent(long studentId){
+		boolean isExist = studentRepository.existsById(studentId);
+		if (!isExist) {
+
+			throw new IllegalStateException("student with id: " + studentId+" does not exist");
+			
+		}
+		studentRepository.deleteById(studentId);
+
+
 	}
 }
