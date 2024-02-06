@@ -12,13 +12,13 @@ public abstract class PokemonTemplate {
         System.out.println("Successfully Created Pokemon");
     }
 
-    public abstract void buildMoves();
-    public abstract void buildType();
-
-
     private void buildPokemonData(){
 
     }
+
+    public abstract void buildMoves();
+    public abstract void buildType();
+
 
     private void buildPokemonStats(){
         System.out.println("Pokemon Stats Blah Blah");

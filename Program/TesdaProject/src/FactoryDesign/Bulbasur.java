@@ -1,8 +1,6 @@
-package Generation1;
+package FactoryDesign;
 
-import AbstractFactory.Pokedex;
-
-public class Bulbasur extends Pokedex {
+public class Bulbasur extends Pokemon{
 
     private int id;
     private String name;
@@ -21,8 +19,8 @@ public class Bulbasur extends Pokedex {
     private int total;
 
     public Bulbasur(int id, String name, String type, String species, float height, float weight,
-                    String abilities, int hp, int attack, int defense, int spAttack,
-                    int spDefense, int speed) {
+                    String abilities, int hp, int attack, int defense, int spAttack, int spDefense,
+                    int speed) {
 
         this.id = id;
         this.name = name;
@@ -37,8 +35,8 @@ public class Bulbasur extends Pokedex {
         this.spAttack = spAttack;
         this.spDefense = spDefense;
         this.speed = speed;
-        this.total = total;
     }
+
 
     @Override
     public int getId() {
@@ -82,7 +80,7 @@ public class Bulbasur extends Pokedex {
 
     @Override
     public int getAttack() {
-        return  this.attack;
+        return this.attack;
     }
 
     @Override
@@ -92,7 +90,7 @@ public class Bulbasur extends Pokedex {
 
     @Override
     public int getSpAttack() {
-        return  this.spAttack;
+        return this.spAttack;
     }
 
     @Override
@@ -104,4 +102,12 @@ public class Bulbasur extends Pokedex {
     public int getSpeed() {
         return this.speed;
     }
+
+    @Override
+    public int getTotal() {
+        return 0;
+    }
+
+
+
 }
