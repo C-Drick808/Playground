@@ -1,26 +1,27 @@
 package TemplateMethod;
 
-public abstract class PokemonTemplate {
+import FactoryDesign.*;
+
+import java.util.ArrayList;
+
+public class PokemonTemplate{
 
     //template method, final so subclasses can't override
-    public final void buildPokemon(){
+    /*public final void buildJourney(){
 
-        buildPokemonData();
-        buildMoves();
+        buildFoundation();
         buildType();
-        buildPokemonStats();
-        System.out.println("Successfully Created Pokemon");
+        buildMoves();
+        System.out.println("Successfully Started the journey");
+    }*/
+
+    public void buildFoundation(){
+
     }
 
-    private void buildPokemonData(){
-
-    }
-
-    public abstract void buildMoves();
-    public abstract void buildType();
+    //public abstract void buildMoves();
+    //public abstract void buildType();
 
 
-    private void buildPokemonStats(){
-        System.out.println("Pokemon Stats Blah Blah");
-    }
+
 }

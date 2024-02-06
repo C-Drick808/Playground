@@ -1,21 +1,21 @@
 package FactoryDesign;
 
-public class WildData extends PokemonData{
-
+public class PkDataBulbasaur extends PokemonData {
     protected int idData;
     protected String name;
+    protected String type;
 
-    public WildData(int idData, String name, String type) {
+    public PkDataBulbasaur(int idData, String name, String type) {
         this.idData = idData;
         this.name = name;
         this.type = type;
     }
 
-    protected String type;
+    public PkDataBulbasaur(){}
 
     @Override
     public int getIdData() {
-        return idData;
+        return this.idData;
     }
 
     @Override
