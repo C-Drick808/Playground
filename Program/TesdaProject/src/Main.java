@@ -6,5 +6,6 @@ public class Main {
         //PokemonTemplate template = new Wild();
         //template.buildPokemon();
 
+
     }
 }
