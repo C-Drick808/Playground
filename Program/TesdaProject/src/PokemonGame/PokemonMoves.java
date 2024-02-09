@@ -1,12 +1,9 @@
 package PokemonGame;
 
 public interface PokemonMoves {
-
     String getSkillName();
     String getSkillType();
     Float getSkillPower();
-    short getSkillPoints();
+    int getSkillPoints();
     String getSkillEffect();
-
-
 }

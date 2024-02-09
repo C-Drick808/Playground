@@ -4,17 +4,12 @@ public abstract class Pokemon implements PokemonData,PokemonStats{
 
     private final int id;
     private final String name;
-
     private final int hp;
     private final int attack;
     private final int defense;
     private final int spAttack;
     private final int spDefense;
     private final int speed;
-
-
-
-
 
 
 
