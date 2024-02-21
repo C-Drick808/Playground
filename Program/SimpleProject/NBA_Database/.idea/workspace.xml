@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0c3b9ca8-dbac-44fe-8ff7-d747c5c8e220" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../TesdaProject/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TesdaProject/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TesdaProject/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TesdaProject/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TesdaProject/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TesdaProject/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TesdaProject/TesdaProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TesdaProject/src/Generation1/Pokemon/Bulbasaur.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TesdaProject/src/Generation1/Pokemon/Caterpie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TesdaProject/src/Generation1/Pokemon/Charmander.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TesdaProject/src/Generation1/Pokemon/Ekans.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TesdaProject/src/Generation1/Pokemon/Kakuna.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TesdaProject/src/Generation1/Pokemon/Pidgey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TesdaProject/src/Generation1/Pokemon/Pikachu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TesdaProject/src/Generation1/Pokemon/Rattata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TesdaProject/src/Generation1/Pokemon/Sanshrew.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TesdaProject/src/Generation1/Pokemon/Spearow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TesdaProject/src/Generation1/Pokemon/Squirtle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TesdaProject/src/Generation1/Pokemon/Weedle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TesdaProject/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TesdaProject/src/PokemonGame/GameApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TesdaProject/src/PokemonGame/LoadPokedex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TesdaProject/src/PokemonGame/Pokemon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TesdaProject/src/PokemonGame/PokemonData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TesdaProject/src/PokemonGame/PokemonMoves.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TesdaProject/src/PokemonGame/PokemonType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TesdaProject/src/PokemonGame/Type.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TesdaProject/src/PokemonGame/Wild.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2cWo6SDXLuAoPlAEwEpb1mVxvk0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Testicles&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c3b9ca8-dbac-44fe-8ff7-d747c5c8e220" name="Changes" comment="" />
+      <created>1708236524973</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708236524973</updated>
+    </task>
+    <servers />
+  </component>
+</project>
